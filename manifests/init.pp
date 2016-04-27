@@ -25,9 +25,9 @@ class phantomjs {
   include phantomjs::deps
   
   $TEMP = '/tmp'
-  $NAME = 'phantomjs-1.9.0-linux-x86_64'
+  $NAME = 'phantomjs-2.1.1-linux-x86_64'
   $PACKAGE = "$NAME.tar.bz2"
-  $URL64BIT = "https://phantomjs.googlecode.com/files/$PACKAGE"
+  $URL64BIT = "https://bitbucket.org/ariya/phantomjs/downloads/$PACKAGE"
   $TEMPPACKAGE = "$TEMP/$PACKAGE"
   $OPT = '/opt'
   $INSTALLDIR = "$OPT/$NAME"
